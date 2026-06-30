@@ -60,7 +60,7 @@ To make tests in "examples/ run, do the following:
 
 ## ENTES Ammeter
 !!! Since greenlee is with 5001, entes is 5002
-- **Port**: 5001
+- **Port**: 5002
 - **Command**: `MEASURE_ENTES -get_data`
 - **Measurement Logic**: Calculates current using magnetic field strength (0.01T - 0.1T) and calibration factor (500 - 2000).
 - **Measurement method** : Hall Effect: I = B * K
